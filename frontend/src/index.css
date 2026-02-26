@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Outfit:wght@300;400;700&family=Spectral:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #0c0a09;
+    color: #fafaf9;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-serif {
+    font-family: 'Cinzel', serif;
+}
+
+.font-sans {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+@layer base {
+    :root {
+        --primary: 251 91% 70%;
+        --primary-foreground: 210 40% 98%;
+    }
+}
